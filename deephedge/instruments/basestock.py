@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Underlying(ABC):
+class BaseStock(ABC):
 
     def __init__(self):
         self.buffer = {}

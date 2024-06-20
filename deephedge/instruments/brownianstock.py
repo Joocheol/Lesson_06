@@ -1,8 +1,8 @@
 import torch
 
-from deephedge.instruments.underlying import Underlying
+from deephedge.instruments.basestock import BaseStock
 
-class BrownianStock(Underlying):
+class BrownianStock(BaseStock):
 
     def __init__(self):
         super().__init__()
